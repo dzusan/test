@@ -1,17 +1,16 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1320504022.9317532:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1323013571.595115:@value{I"
 class:EFI"BundledAsset;
 FI"id;
-F"%1dc752e7a6a7829474616f7021d21489I"logical_path;
-FI"reset.css;
-TI"pathname;
+F"%b2319b6b4434d0880927a1209b0acd81I"logical_path;
+F"reset.cssI"pathname;
 FI"+$root/app/assets/stylesheets/reset.css;
 FI"content_type;
 FI"text/css;
 FI"
 mtime;
-FI"2011-11-05T18:39:39+04:00;
+FI"2011-12-04T19:45:57+04:00;
 FI"	body;
-FI"@/* http://meyerweb.com/eric/tools/css/reset/
+FI"B/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -59,6 +58,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
 ;
 FI"asset_paths;
 F[I"+$root/app/assets/stylesheets/reset.css;
@@ -67,8 +67,8 @@ F[{I"	path;
 FI"+$root/app/assets/stylesheets/reset.css;
 FI"
 mtime;
-FIu:	TimeÆËÄ”Í~û
+FIu:	TimeèÏÄR–ê∑
 :@_zoneI"MSK;
-T:nano_numi€:nano_deni:submicro"òp:offseti@8I"hexdigest;
-F"%e8c487b5e83de627dc5644270c2d086aI"_version;
-F"%46dde6621c301f4928e3b34efee9e3b5
+T:nano_numiÿ:nano_deni:submicro"ò@:offseti@8I"hexdigest;
+F"%2f29c89d608f8812c24ce92cc326b809I"_version;
+F"%1c9609bc58b1e77c196de29021583379
