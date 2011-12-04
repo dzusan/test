@@ -1,8 +1,9 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1323013571.595115:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1323021001.0831928:@value{I"
 class:EFI"BundledAsset;
 FI"id;
-F"%b2319b6b4434d0880927a1209b0acd81I"logical_path;
-F"reset.cssI"pathname;
+F"%94d6d289b1187d10bd0f4d90c9ebfe79I"logical_path;
+FI"reset.css;
+TI"pathname;
 FI"+$root/app/assets/stylesheets/reset.css;
 FI"content_type;
 FI"text/css;
@@ -70,5 +71,5 @@ mtime;
 FIu:	TimeèÏÄR–ê∑
 :@_zoneI"MSK;
 T:nano_numiÿ:nano_deni:submicro"ò@:offseti@8I"hexdigest;
-F"%2f29c89d608f8812c24ce92cc326b809I"_version;
-F"%1c9609bc58b1e77c196de29021583379
+F"%3a58720fe1877007393b8a80d7f8b548I"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

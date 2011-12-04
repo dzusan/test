@@ -1,6 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1320504022.980755:@value{	I"length:EFi@I"digest;
-F"%54e0d763bc1d5d89998ade45d0da0d01I"source;
-FI"@/* http://meyerweb.com/eric/tools/css/reset/
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1323021001.1133327:@value{	I"length:EFiBI"digest;
+F"%f37df524989010887dff3646217637faI"source;
+FI"B/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -48,6 +48,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
 ;
 FI"_version;
-F"%1dc752e7a6a7829474616f7021d21489
+F"%94d6d289b1187d10bd0f4d90c9ebfe79
