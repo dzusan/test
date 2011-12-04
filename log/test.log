@@ -1,0 +1,3 @@
+  Processing by BlogController#home as HTML
+Rendered blog/home.html.erb within layouts/application (29.8ms)
+Completed 200 OK in 136ms (Views: 136.1ms | ActiveRecord: 0.0ms)

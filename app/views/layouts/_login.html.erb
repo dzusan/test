@@ -1,0 +1,12 @@
+<section class="login">
+  <h3> login </h3>
+  <ul>
+  <% if signed_in? %>
+    <li><%= link_to "Профиль", current_user %></li>
+    <li><%= link_to "Выйти", signout_path, :method => :delete %></li>
+  <% else %>
+    <li><%= link_to "Войти", signin_path %></li>
+    <li><%= link_to "Регистрация", signup_path %></li>
+  <% end %>
+  </ul>
+</section>
