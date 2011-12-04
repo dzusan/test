@@ -10853,3 +10853,24 @@ Completed 200 OK in 130ms (Views: 129.6ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-12-04 18:58:42 +0400
 Served asset /base.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-04 19:24:55 +0400
+  Processing by BlogController#home as HTML
+Rendered blog/home.html.erb within layouts/application (27.6ms)
+Rendered layouts/_header.html.erb (0.4ms)
+Rendered layouts/_login.html.erb (1.6ms)
+Rendered layouts/_likes.html.erb (0.3ms)
+Rendered layouts/_search.html.erb (0.3ms)
+Rendered layouts/_navigation.html.erb (2.2ms)
+Rendered layouts/_tags.html.erb (0.3ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 66ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2011-12-04 19:24:55 +0400
+Served asset /reset.css - 200 OK (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-12-04 19:24:55 +0400
+Served asset /base.css - 200 OK (0ms)
