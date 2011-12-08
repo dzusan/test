@@ -49,12 +49,20 @@ h2{
   -webkit-border-radius:20px;
 }
 
+.logo{
+  text-decoration: none;
+  font: normal normal bold 50px sans-serif;
+  text-shadow: -1px -1px #666, 1px 1px #FFF;
+  color: #ddcca3;
+}
+  
 
 header, footer{
   width: 100%;
   height: 100px;
   margin-bottom: 30px;
   background-color: #a28787;
+  text-decoration: none;
   font: normal normal bold 50px sans-serif;
   text-shadow: -1px -1px #666, 1px 1px #FFF;
   text-align: center;

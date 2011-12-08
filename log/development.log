@@ -11080,3 +11080,364 @@ Migrating to CreateUsers (20111114113006)
   [1m[35m (0.3ms)[0m  select sqlite_version(*)
   [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
   [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-08 04:41:00 +0400
+  Processing by BlogController#home as HTML
+Rendered blog/home.html.erb within layouts/application (34.8ms)
+Compiled base.css  (0ms)  (pid 1260)
+Rendered layouts/_header.html.erb (94.3ms)
+Completed 500 Internal Server Error in 231ms
+
+ActionView::Template::Error (undefined local variable or method `home_path' for #<#<Class:0xa692120>:0x9d53384>):
+    1: <header>
+    2:   <%= link_to "Тупичок  Dzusan ' a", home_path %>
+    3: </header>
+  app/views/layouts/_header.html.erb:2:in `_app_views_layouts__header_html_erb__18722993_87686520'
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__102602783_86951670'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-08 04:43:15 +0400
+  Processing by BlogController#home as HTML
+Rendered blog/home.html.erb within layouts/application (28.5ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered layouts/_login.html.erb (1.6ms)
+Rendered layouts/_likes.html.erb (0.3ms)
+Rendered layouts/_search.html.erb (0.3ms)
+Rendered layouts/_navigation.html.erb (2.4ms)
+Rendered layouts/_tags.html.erb (0.4ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 94ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2011-12-08 04:43:16 +0400
+Served asset /reset.css - 200 OK (23ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-12-08 04:43:16 +0400
+Served asset /base.css - 200 OK (7ms)
+
+
+Started GET "/electro" for 127.0.0.1 at 2011-12-08 04:43:27 +0400
+  Processing by BlogController#electro as HTML
+Rendered blog/electro.html.erb within layouts/application (0.5ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_login.html.erb (0.9ms)
+Rendered layouts/_likes.html.erb (0.0ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.7ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prog" for 127.0.0.1 at 2011-12-08 04:43:28 +0400
+  Processing by BlogController#prog as HTML
+Rendered blog/prog.html.erb within layouts/application (0.8ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_login.html.erb (0.9ms)
+Rendered layouts/_likes.html.erb (0.0ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.9ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nix" for 127.0.0.1 at 2011-12-08 04:43:29 +0400
+  Processing by BlogController#nix as HTML
+Rendered blog/nix.html.erb within layouts/application (0.6ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_login.html.erb (0.9ms)
+Rendered layouts/_likes.html.erb (0.0ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.7ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/other" for 127.0.0.1 at 2011-12-08 04:43:29 +0400
+  Processing by BlogController#other as HTML
+Rendered blog/other.html.erb within layouts/application (0.9ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_login.html.erb (0.9ms)
+Rendered layouts/_likes.html.erb (0.0ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.7ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-08 04:43:30 +0400
+  Processing by BlogController#home as HTML
+Rendered blog/home.html.erb within layouts/application (0.0ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_login.html.erb (1.0ms)
+Rendered layouts/_likes.html.erb (0.0ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.8ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-12-08 04:43:37 +0400
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (13.6ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_login.html.erb (0.8ms)
+Rendered layouts/_likes.html.erb (0.0ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.6ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-08 04:45:03 +0400
+  Processing by BlogController#home as HTML
+Rendered blog/home.html.erb within layouts/application (28.7ms)
+Compiled base.css  (0ms)  (pid 1315)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered layouts/_login.html.erb (1.6ms)
+Rendered layouts/_likes.html.erb (0.3ms)
+Rendered layouts/_search.html.erb (0.3ms)
+Rendered layouts/_navigation.html.erb (2.3ms)
+Rendered layouts/_tags.html.erb (0.4ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 72ms (Views: 71.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2011-12-08 04:45:04 +0400
+Served asset /reset.css - 200 OK (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-12-08 04:45:04 +0400
+Served asset /base.css - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-08 04:45:07 +0400
+  Processing by BlogController#home as HTML
+Rendered blog/home.html.erb within layouts/application (0.0ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_login.html.erb (0.9ms)
+Rendered layouts/_likes.html.erb (0.0ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.7ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2011-12-08 04:45:07 +0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-12-08 04:45:07 +0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-08 04:45:08 +0400
+  Processing by BlogController#home as HTML
+Rendered blog/home.html.erb within layouts/application (0.1ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_login.html.erb (0.9ms)
+Rendered layouts/_likes.html.erb (0.0ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.7ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2011-12-08 04:45:08 +0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-12-08 04:45:08 +0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-08 04:45:09 +0400
+  Processing by BlogController#home as HTML
+Rendered blog/home.html.erb within layouts/application (0.0ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_login.html.erb (0.9ms)
+Rendered layouts/_likes.html.erb (0.0ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.7ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2011-12-08 04:45:09 +0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-12-08 04:45:09 +0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/electro" for 127.0.0.1 at 2011-12-08 04:45:11 +0400
+  Processing by BlogController#electro as HTML
+Rendered blog/electro.html.erb within layouts/application (0.5ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_login.html.erb (0.9ms)
+Rendered layouts/_likes.html.erb (0.0ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.7ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-12-08 04:45:11 +0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2011-12-08 04:45:11 +0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/prog" for 127.0.0.1 at 2011-12-08 04:45:12 +0400
+  Processing by BlogController#prog as HTML
+Rendered blog/prog.html.erb within layouts/application (0.7ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_login.html.erb (0.9ms)
+Rendered layouts/_likes.html.erb (0.0ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.7ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2011-12-08 04:45:12 +0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-12-08 04:45:12 +0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/nix" for 127.0.0.1 at 2011-12-08 04:45:13 +0400
+  Processing by BlogController#nix as HTML
+Rendered blog/nix.html.erb within layouts/application (0.6ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_login.html.erb (35.0ms)
+Rendered layouts/_likes.html.erb (0.1ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.9ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 51ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2011-12-08 04:45:13 +0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-12-08 04:45:13 +0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-08 04:45:14 +0400
+  Processing by BlogController#home as HTML
+Rendered blog/home.html.erb within layouts/application (0.1ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_login.html.erb (0.8ms)
+Rendered layouts/_likes.html.erb (0.0ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.7ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2011-12-08 04:45:14 +0400
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-12-08 04:45:14 +0400
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-08 04:50:22 +0400
+  Processing by BlogController#home as HTML
+Rendered blog/home.html.erb within layouts/application (28.6ms)
+Compiled base.css  (0ms)  (pid 1357)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_login.html.erb (1.6ms)
+Rendered layouts/_likes.html.erb (0.3ms)
+Rendered layouts/_search.html.erb (0.3ms)
+Rendered layouts/_navigation.html.erb (2.5ms)
+Rendered layouts/_tags.html.erb (0.4ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 72ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2011-12-08 04:50:23 +0400
+Served asset /reset.css - 200 OK (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-12-08 04:50:23 +0400
+Served asset /base.css - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-08 04:50:25 +0400
+  Processing by BlogController#home as HTML
+Rendered blog/home.html.erb within layouts/application (0.0ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_login.html.erb (0.8ms)
+Rendered layouts/_likes.html.erb (0.0ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.7ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/electro" for 127.0.0.1 at 2011-12-08 04:50:27 +0400
+  Processing by BlogController#electro as HTML
+Rendered blog/electro.html.erb within layouts/application (0.5ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_login.html.erb (0.9ms)
+Rendered layouts/_likes.html.erb (0.0ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.8ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prog" for 127.0.0.1 at 2011-12-08 04:50:28 +0400
+  Processing by BlogController#prog as HTML
+Rendered blog/prog.html.erb within layouts/application (0.8ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_login.html.erb (0.8ms)
+Rendered layouts/_likes.html.erb (0.0ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.7ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-08 04:50:29 +0400
+  Processing by BlogController#home as HTML
+Rendered blog/home.html.erb within layouts/application (0.1ms)
+Rendered layouts/_header.html.erb (0.7ms)
+Rendered layouts/_login.html.erb (0.9ms)
+Rendered layouts/_likes.html.erb (0.0ms)
+Rendered layouts/_search.html.erb (0.0ms)
+Rendered layouts/_navigation.html.erb (1.7ms)
+Rendered layouts/_tags.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
